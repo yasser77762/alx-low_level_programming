@@ -19,7 +19,7 @@ void reverse_array(int *a, int n)
 		a[debut] = a[fin];
 		a[fin] = temp;
 		debut++;
-		fin--;
+		fin = fin - 1;
 	}
 }
 
