@@ -10,8 +10,8 @@ void reverse_array(int *a, int n)
 {
 	int debut, fin, temp;
 
-	debut = 0;
-	fin = n - 1;
+	debut = 1;
+	fin = n;
 
 	while (debut < fin)
 	{
@@ -19,7 +19,7 @@ void reverse_array(int *a, int n)
 		a[debut] = a[fin];
 		a[fin] = temp;
 		debut++;
-		fin++;
+		fin--;
 	}
 }
 
