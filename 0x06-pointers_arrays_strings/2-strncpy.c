@@ -4,7 +4,7 @@
  * @dest: pointer to the string
  * @src: pointer
  * @n: int
- * Reeturn: destination
+ * Return: destination
  */
 char *_strncpy(char *dest, char *src, int n)
 {
