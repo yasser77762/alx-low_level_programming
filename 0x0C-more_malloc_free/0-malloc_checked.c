@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  * malloc_checker - function that allocates memory using malloc
  * @b: int and this is length to allocated in the memory
